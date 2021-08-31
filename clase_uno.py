@@ -116,20 +116,46 @@ c = a + " " + b
 print(c)
 print(type(c))
 
+# capturar por pantalla
+
+nombre = input("Digite su nombre: ")
+print("hola",nombre)
+
+# HUA  que sume dos numeros e imprima su resultado
+
+n1 = input("Digite el primer numero: ")
+n2 = input("Digite el segundo numero: ")
+resultado = int(n1) + int(n2)
+print("El resultado de la suma es",n1,"+",n2,"=",resultado)
+
+
+n11 = float(input("Digite el primer numero: "))
+n22 = float(input("Digite el segundo numero: "))
+resultado2 = n11 + n22
+print("El resultado es",resultado2)
+print(f"{resultado2}")
+
+
+# HUA  que lea un numero e imprima su resultado del cuadrado
+
+n_cuadrado = float(input("Digite el numero que se va a elevar: "))
+resultado_cuadrado = n_cuadrado ** 2
+print(f"El resultado es : {resultado_cuadrado}")
 
 
 
+resultado_cuadrado2 =  float(input("Digite el numero que se va a elevar: ")) ** 2
+print(f"El resultado es : {resultado_cuadrado2}")
 
 
+# HUA que tome el valos de un producto , le aplique el 20%
+# de descuento e imprima
+# valor inicial , valor con  des y valor de ahoroo
 
-
-
-
-
-
-
-
-
+varlor_producto = float(input("Digite valor del producto: $"))
+valor_descuento = varlor_producto * 0.20
+valor_total = varlor_producto - valor_descuento
+print(f"Valor producto: ${varlor_producto:,}\n Valor descuento: ${valor_descuento:,}\n Valor total: ${valor_total:,}")
 
 
 
