@@ -59,14 +59,96 @@ print(c)
 
 # raiz
 
-a = 5
+a = 27
 b = 2
-c = a  ** (1/3)
+c = a ** (1/3)
 print(c)
 
 import math
 raiz = math.sqrt(25)
 print(raiz)
+
+
+# tipo de datos
+
+# string str
+a = "Hola mundo"
+a = 'Hola mundo'
+b = "I can't do it"
+c = 'Alias "roberto" '
+
+# Entero int
+a = 5
+
+# Decimal float
+a = 5.6
+
+# Boolean bool
+x = True
+y = False
+
+# conversiones entre tipos de datos
+
+# convertir de x a entero
+a = '3'
+y = int(a)
+print(y)
+print(type(y))
+
+# convertir de x a decimal
+a = '3'
+y = float(a)
+print(y)
+print(type(y))
+
+
+# convertir de x a string
+a = 3
+y = str(a)
+print(y)
+print(type(y))
+
+
+# concatenar
+a = "Hola"
+b = "Mundo"
+c = a + " " + b 
+print(c)
+print(type(c))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

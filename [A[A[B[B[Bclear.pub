@@ -1,0 +1,1 @@
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAvEsJfZ1iNEAFgTjGnDprzjKtDAyj5fHGCQ+Cn3SpIk rdfajardos$ ssh-keygen -t ed25519 -C rdfajardos
